@@ -17,3 +17,20 @@
 6. Add the following javascript to one of the javascript files in the *app/assets/javascripts* folder.
 
 * Friendly note: If you have a .coffee file and a .js file with the same name in *app/assets/javascripts*, then Rails will only load the .coffee file!  For this reason it’s best to delete the .coffee file just in case.
+
+```document.addEventListener("DOMContentLoaded", function(event) { 
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+  });
+});```
+
+7. Add to your HTML:
+
+```<div id="app">
+  {{ message }}
+</div>```
+
+8. Go to that page in your browser and check that you see “Hello Vue!”. If so, Vue.js is properly installed!
