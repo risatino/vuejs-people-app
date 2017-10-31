@@ -1,0 +1,65 @@
+/* line 1, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.strike {
+  text-decoration: line-through;
+}
+
+/* Vue.js fade */
+/* line 6, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.6s;
+}
+
+/* line 9, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+/* Vue.js slide-right */
+/* line 14, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.slide-right-enter-active {
+  transition: all .3s ease;
+}
+
+/* line 17, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.slide-right-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+/* line 20, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.slide-right-enter, .slide-right-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+/* Vue.js slide-left */
+/* line 26, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.slide-left-enter-active {
+  transition: all .3s ease;
+}
+
+/* line 29, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.slide-left-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+/* line 32, /Users/risaprezzano/Desktop/actualize-prep/vuejs-people-app/app/assets/stylesheets/people.scss */
+.slide-left-enter, .slide-left-leave-to {
+  transform: translateX(-10px);
+  opacity: 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
