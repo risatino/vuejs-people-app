@@ -1,4 +1,4 @@
-### Vue.js People App
+### Vue.js People App (Rails & Vue.js)
 
 1. install gems:
 ```gem 'vuejs-rails'```
