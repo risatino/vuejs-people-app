@@ -34,3 +34,5 @@
 </div>```
 
 8. Go to that page in your browser and check that you see “Hello Vue!”. If so, Vue.js is properly installed!
+
+9. Read the Vue.js docs here <https://vuejs.org/>
